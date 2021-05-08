@@ -1,0 +1,52 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    word-spacing: normal;
+    background: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: blue;
+}
+td{
+    width: 0.5%;
+}
+
+  img {
+    width: 10%;
+    
+  }
+
+  body {
+    background-image: url("images/im.jpeg");
+  }
+
+  img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1{ text-align: center;}
+h2{text-align: center;}
+/*p {text-align: center;
+text-transform: italic;}*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+textarea {
+  border-spacing: 0;
+ row-gap: 0;
+}
+
