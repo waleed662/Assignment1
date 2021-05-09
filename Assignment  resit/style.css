@@ -2,11 +2,12 @@
     height: 50px;
     width: 100%;
     word-spacing: normal;
-    background: black;
+    background: transparent;
 }
 .navbar a{
     text-decoration: none;
     color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .navbar a:hover{
     color: blue;
@@ -16,12 +17,13 @@ td{
 }
 
   img {
-    width: 10%;
+    width: 0.5%;
     
   }
 
   body {
-    background-image: url("images/im.jpeg");
+    background-image: url("im.jpeg");
+    
   }
 
   img{
@@ -50,3 +52,46 @@ textarea {
  row-gap: 0;
 }
 
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  left: 0;
+  top: 10%;
+  background-image: url("download.jpeg");
+  background-size: 100%;
+}
+
+.right {
+  right: 0;
+  top: 10%;
+  background-color: white;
+  background-size: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 100%;
+}
+
+
+.contact textarea {
+  width: 30%;
+  border-radius: 5px;
+  padding: 20px;
+}
